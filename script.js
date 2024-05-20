@@ -8,7 +8,7 @@ const loadingScreen = document.querySelector(".loading-container");
 const userInfoContainer = document.querySelector(".user-info-container");
 const errorContainer = document.querySelector('.errorMsg');
 const errorMsg = document.querySelector("[data-errorMsg]");
-
+ 
 let currrentTab = userTab;
 const API_KEY = `1cd72b43cca6e999256a455906e2c5b1`;
 currrentTab.classList.add("current-tab");
